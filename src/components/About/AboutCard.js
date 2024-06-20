@@ -13,8 +13,9 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Mosciski-Kunde.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have developed responsive websites for various clients using HTML,
+            CSS, and JavaScript, ensuring compatibility across multiple browsers
+            and devices.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
