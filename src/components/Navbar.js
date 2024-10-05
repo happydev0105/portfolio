@@ -119,4 +119,8 @@ function NavBar() {
   );
 }
 
+<<<<<<< HEAD
 export default NavBar;
+=======
+export default NavBar;
+>>>>>>> caf0776ecac89ade08d3d0086e9138c209b33e0e
