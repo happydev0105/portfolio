@@ -68,16 +68,6 @@ function Projects() {
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/happydev0105/AI_For_Social_Good"
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>

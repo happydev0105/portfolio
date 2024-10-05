@@ -1,13 +1,14 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import React from 'react';
+
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+import { AiFillGithub } from 'react-icons/ai';
+import Tilt from 'react-parallax-tilt';
+
+import myImg from '../../Assets/avatar.svg';
 
 function Home2() {
   return (
@@ -24,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C/C++, Javascript and PHP. </b>
+                <b className="purple"> C/C++, Javascript, Python and Go. </b>
               </i>
               <br />
               <br />
@@ -48,7 +49,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Next.js, Vue.js and Nuxt.js</b>
               </i>
             </p>
           </Col>
