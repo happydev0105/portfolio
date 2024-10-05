@@ -1,11 +1,17 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import React from 'react';
+
+import {
+  Col,
+  Container,
+  Row,
+} from 'react-bootstrap';
+
+import bitsOfCode from '../../Assets/Projects/blog.png';
+import chatify from '../../Assets/Projects/chatify.png';
+import editor from '../../Assets/Projects/codeEditor.png';
+import leaf from '../../Assets/Projects/leaf.png';
+import Particle from '../Particle';
+import ProjectCard from './ProjectCards';
 
 function Projects() {
   return (
@@ -63,7 +69,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -71,7 +77,7 @@ function Projects() {
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/happydev0105/AI_For_Social_Good"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -1,5 +1,6 @@
-import React from "react";
-import Particles from "react-tsparticles";
+import React from 'react';
+
+import Particles from 'react-tsparticles';
 
 function Particle() {
   return (
@@ -52,8 +53,4 @@ function Particle() {
   );
 }
 
-<<<<<<< HEAD
 export default Particle;
-=======
-export default Particle;
->>>>>>> caf0776ecac89ade08d3d0086e9138c209b33e0e
